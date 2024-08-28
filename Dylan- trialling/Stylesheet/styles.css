@@ -1,0 +1,14 @@
+footer{
+    background-color: black;
+    color: white;
+}
+
+#footer_site_map a, #footer_site_map_sm a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer_2{
+    background-color: #2FBEC2;
+    color: black;
+}

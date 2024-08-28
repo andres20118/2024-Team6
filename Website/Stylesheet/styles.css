@@ -1,0 +1,154 @@
+/*Page Styling*/
+body {
+    font-family: "Arial", sans-serif;
+}
+
+@font-face {
+    font-family: Bookman-Bold;
+    src: url(../Fonts/Bookman-Bold.ttf)
+}
+
+h1, h2, h4{
+    font-family: Bookman-Bold;
+    font-weight: bold !important;
+}
+
+header h1, header h2 {
+    line-height: 1;
+    white-space: nowrap;
+    font-size: 32px;
+}
+
+header p, nav li a {
+    white-space: nowrap;
+}
+
+.nav-link:hover{
+    padding-left: 50px;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+nav li{
+    font-size: 17px;
+}
+
+#desktop-title {
+    margin-top: -170px;
+    left: 0px;
+}
+
+#extendedNavbar {
+    margin-top: -95px;
+    margin-left: -12px;
+}
+
+
+#committee{
+    background-color: white;
+}
+
+#contact_form{
+    background-color: white;
+}
+
+#submit_button{
+    background-color: #2fbec2;
+    color: black;
+}
+
+
+
+
+#Scrollspy{
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+#Scrollspy ul li a{
+    background-color: white;
+    color: black;
+}
+
+#Scrollspy ul li a.active{
+    background-color:#2FBEC2;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer_site_map a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.blue{
+    background-color: #2FBEC2;
+    color: black;
+}
+
+.yellow{
+    background-color: #fdc010;
+}
+
+#remove_later{
+    width: 100%;
+}
+
+main ul{
+    list-style-type: none;
+}
+
+.btn_background{
+    background-color: rgba(255, 255, 255, 0.534) !important;
+    border-radius: 5px;
+    width: 140px;
+    text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.824) !important;
+    border-radius: 5px;
+}
+
+.dropdown button{
+    background-color: #2FBEC2;
+}
+
+.collapse_section button{
+    outline: 1px;
+    outline-color: #2FBEC2;
+}
+
+.collapse_section button:hover{
+    background-color: #2FBEC2;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #2FBEC2 !important; 
+    color: black !important; 
+}
+
+/* Removes outline when clicked */
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button {
+    font-size: 20px !important; 
+}
+
+.relevant_links a{
+    color: black;
+}

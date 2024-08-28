@@ -1,0 +1,58 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+@font-face {
+    font-family: Bookman-Bold;
+    src: url(../Fonts/Bookman-Bold.ttf)
+}
+
+header h1, header h2 {
+    font-family: Bookman-Bold;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+header h2 {
+    font-size: 34px;
+}
+
+header p, nav li a {
+    white-space: nowrap;
+}
+
+.nav-link:hover{
+    padding-left: 50px;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+nav li{
+    font-size: 17px;
+}
+
+#desktop-title {
+    margin-top: -170px;
+    left: 0px;
+}
+
+#extendedNavbar {
+    margin-top: -95px;
+    margin-left: -12px;
+}
+
+main {
+    background-color: #2FBEC2;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer_site_map a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
